@@ -58,7 +58,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         selectedAnimal = animals[indexPath.row]
         selectedAnimalDesc = animalDesc[indexPath.row]
         selectedImage = UIImage(named: animals[indexPath.row])
-        
+        // performing segue
         self.performSegue(withIdentifier: K.segueName , sender: self)
     }
     
